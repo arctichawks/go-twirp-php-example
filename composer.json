@@ -1,0 +1,19 @@
+{
+    "name": "twirp-laravel/easy-launch",
+    "autoload": {
+        "psr-4": {
+            "TwirpLaravel\\EasyLaunch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Timofey Semenenko",
+            "email": "timofey.semenenko@showheroes-group.com"
+        }
+    ],
+    "require": {
+        "google/protobuf": "^3.23",
+        "guzzlehttp/guzzle": "^7.7",
+        "guzzlehttp/psr7": "^2.5"
+    }
+}
