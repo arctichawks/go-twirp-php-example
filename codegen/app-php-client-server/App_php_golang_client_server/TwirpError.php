@@ -3,7 +3,7 @@
 
 declare(strict_types=1);
 
-namespace Twitch\Twirp\Example;
+namespace App_php_golang_client_server;
 
 use Twirp\ErrorCode;
 use Twirp\Error;

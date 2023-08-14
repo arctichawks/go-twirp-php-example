@@ -1,9 +1,9 @@
 {
-  "name": "twirp-laravel/easy-launch",
+  "name": "go-twirp-php-example/easy-launch",
   "autoload": {
     "psr-4": {
-      "TwirpLaravel\\EasyLaunch\\": "src/",
-      "": "generated/"
+      "TwirpCodeGen\\": "codegen/",
+      "App\\": "src/"
     }
   },
   "authors": [
