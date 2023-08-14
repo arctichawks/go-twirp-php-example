@@ -3,7 +3,7 @@ module github.com/arctichawks/go-twirp-php-example
 go 1.2
 
 require (
-	github.com/twitchtv/twirp v7.2.0+incompatible
+	github.com/twitchtv/twirp v8.1.3+incompatible
 	google.golang.org/protobuf v1.31.0
 )
 

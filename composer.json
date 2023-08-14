@@ -2,7 +2,7 @@
   "name": "go-twirp-php-example/easy-launch",
   "autoload": {
     "psr-4": {
-      "TwirpCodeGen\\": "codegen/",
+      "App_php_golang_client_server\\": "codegen/app-php-client-server/App_php_golang_client_server",
       "App\\": "src/"
     }
   },
