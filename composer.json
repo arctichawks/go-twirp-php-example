@@ -1,19 +1,25 @@
 {
-    "name": "twirp-laravel/easy-launch",
-    "autoload": {
-        "psr-4": {
-            "TwirpLaravel\\EasyLaunch\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Timofey Semenenko",
-            "email": "timofey.semenenko@showheroes-group.com"
-        }
-    ],
-    "require": {
-        "google/protobuf": "^3.23",
-        "guzzlehttp/guzzle": "^7.7",
-        "guzzlehttp/psr7": "^2.5"
+  "name": "twirp-laravel/easy-launch",
+  "autoload": {
+    "psr-4": {
+      "TwirpLaravel\\EasyLaunch\\": "src/",
+      "": "generated/"
     }
+  },
+  "authors": [
+    {
+      "name": "Timofey Semenenko",
+      "email": "semenenko.tim@yandex.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "twirp/twirp": "0.9.1",
+    "twirp/quickstart": "dev-master"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
 }
